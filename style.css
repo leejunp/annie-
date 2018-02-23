@@ -1,0 +1,166 @@
+body{
+  background-color: black;
+  margin-top:10vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  font-family: 'Roboto', sans-serif;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+  color:white;
+}
+
+a{
+  color:black;
+}
+
+#one{
+  background-image: url("Images/bgtibbers.png");
+}
+
+#three{
+  background-image: url("Images/bgtibbers2.png");
+}
+
+#five{
+  background-image: url("Images/bgtibbers3.png");
+}
+
+#seven{
+  background-image: url("Images/bgtibbers4.png");
+}
+
+video{
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.leftarm{
+  background-color: transparent;
+  border: none;
+  width: 12vw;
+  height:8vw;
+  cursor: pointer;
+  position:fixed;
+  left:33vw;
+  top:29vw;
+  transform: rotate(-25deg);
+}
+
+.rightarm{
+  background-color: transparent;
+  border: none;
+  width: 12vw;
+  height:5vw;
+  cursor: pointer;
+  position:fixed;
+  left:50vw;
+  top:19vw;
+  transform: rotate(-25deg);
+}
+
+.body{
+  background-color: transparent;
+  border: none;
+  width: 10vw;
+  height:16vw;
+  cursor: pointer;
+  position:fixed;
+  left:46vw;
+  top:23vw;
+  transform: rotate(-30deg);
+}
+
+.head{
+  background-color: transparent;
+  border: none;
+  width: 15vw;
+  height:10vw;
+  cursor: pointer;
+  position:fixed;
+  left:37vw;
+  top:16vw;
+  transform: rotate(-30deg);
+}
+
+p, h3{
+  color:white;
+  line-height: 25px;
+}
+
+h1{
+  color:#8C8C8A;
+  font-size:2vw;
+  margin-top:50vw;
+  text-align: center;
+  font-family: 'Amatic SC';
+  transition-delay: 5s;
+}
+
+.ending{
+  display: block;
+  margin-top:30vw;
+  text-align: center;
+  margin-bottom: 15vw;
+}
+
+.back {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 3.5vw;
+    float:right;
+}
+
+.blink {
+  -webkit-animation-name: blink;
+     -moz-animation-name: blink;
+       -o-animation-name: blink;
+          animation-name: blink;
+  -webktit-animation-timing-function: linear;
+      -moz-animation-timing-function: linear;
+        -o-animation-timing-function: linear;
+           animation-timing-function: linear;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+.blink-infinite {
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@-o-keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
